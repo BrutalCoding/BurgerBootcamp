@@ -1,0 +1,4 @@
+C:\Users\dhbre\stack\School\Projecten\Project 7-8\LastChance\Builds Experimental\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\dhbre\stack\School\Projecten\Project 7-8\LastChance\Builds Experimental\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\dhbre\stack\School\Projecten\Project 7-8\LastChance\Builds Experimental\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\dhbre\stack\School\Projecten\Project 7-8\LastChance\Builds Experimental\LastChance\LastChance.csproj;x86

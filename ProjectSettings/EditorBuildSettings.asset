@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/TestScene.unity
+    guid: 672eec19ecde38443aa9617ca2d47870
+  - enabled: 1
+    path: Assets/TestSceneLastBackupBeforeVuforia.unity
+    guid: 7c27b3efdb38ed14fb8c2f8cff38faae

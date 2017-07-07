@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="lettuce_new" size="0.250000 0.178333" />
+    <ImageTarget name="Bottom_Bun_New_4" size="0.250000 0.166797" />
+    <ImageTarget name="Top_Bun_New" size="0.250000 0.207500" />
+    <ImageTarget name="patty" size="0.250000 0.250000" />
+    <ImageTarget name="masterclass" size="0.250000 0.178496" />
+    <ImageTarget name="Tomaten-eerste-oogst-2015" size="0.250000 0.140713" />
+  </Tracking>
+</QCARConfig>

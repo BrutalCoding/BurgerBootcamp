@@ -1,7 +1,7 @@
 /*==============================================================================
 Copyright (c) 2015 Qualcomm Connected Experiences, Inc.
 All Rights Reserved.
-Confidential and Proprietary - Qualcomm Connected Experiences, Inc.
+Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using System.IO;
@@ -29,9 +29,9 @@ public static class SampleOrientationSetter
         androidSymbols = androidSymbols ?? "";
         if (!androidSymbols.Contains(VUFORIA_SAMPLE_ORIENTATION_SETTINGS)) 
         {
-            // Set default orientation to portrait
-            Debug.Log ("Setting default orientation to Portrait.");
-            PlayerSettings.defaultInterfaceOrientation = UIOrientation.Portrait;
+            // Set default orientation to landscape left
+            Debug.Log ("Setting default orientation to Landscape left.");
+            PlayerSettings.defaultInterfaceOrientation = UIOrientation.LandscapeLeft;
 
             // Here we set the scripting define symbols for Android
             // so we can remember that the settings were set once.

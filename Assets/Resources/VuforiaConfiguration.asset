@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AWiFIET/////AAAAGSf/W/ub6Ef3jawd/ktuJH9nnyLEvGpe9MCiv4tGjqSrboZsl0B5C0kHkXq8+cGzPpuLvE5/s4uDx/8j0tR38f2/gLgNeKu0++TQcnNGIrn3pMPI0wwm/bHi8ENYbYcD++ZI3wHoQtt3DWdxqaHx+bQTf6GXqQxmSuY0H5mFstagj0d75cRuucWlNfkADezMtjHpcL6qHCFmHTwOkdbUvZTQ4oTwU6JCQpMWqoSZwFE2SNJMiJWoZEYrI8XEOdmcTU/fJqgnVFnRgHmUZ3s0Ez8Bv9IsQp+C4PvPdge7XpjpqYl4uGedVP8vuAshwbc0Czq9u5267FA98geIiraPROge+zlmJPgcW0ajz6sev8OA
+    vuforiaLicenseKey: AQGB84z/////AAAAGSJ+wbpE6Umyr8mYEt7DX498c83omugKlG7F5rOukjszyTiaQJDpFpqPd8H8RJOXVj2uxiPTT59u3x7jA1BsdSiNnlQmpo2FfEmUHshu6ZJ+PBFt9hjqktuDqhkc32lfSqN1B8WfZNeANyX7StogTkZPZN3eGphO4GvriCLSZ4aL3/q1dk4uetnrgTQ3FTFQFZAwl3y5LJKfMqxiteBp1CL0xWJVPWnTWWHi0SMtgbIc/+1ipjEtITDo/m6Po+BbnncXziLIS1EBQgORtIpq7V9/wKJ1Ftloht87X3GMQg80vU418y6iQ4seGN8HSH1EcIMpIgeJsBdYJ8VM1pWVw7lLAmru1i3dohvBRRxYXr77
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -22,13 +22,13 @@ MonoBehaviour:
     mirrorVideoBackground: 0
   digitalEyewear:
     cameraOffset: 0.06
-    distortionRenderingMode: 2
+    distortionRenderingMode: 1
     distortionRenderingLayer: 31
-    eyewearType: 0
+    eyewearType: 2
     stereoFramework: 0
-    seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
+    seeThroughConfiguration: 1
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -44,9 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - HoloBurger
+    - Database_BurgerBootcamp
     dataSetsToActivate:
-    - HoloBurger
+    - Database_BurgerBootcamp
   videoBackground:
     clippingMode: 0
     matteShader: {fileID: 4800000, guid: f84e93cca971cda47a225f4c6a4156c9, type: 3}
@@ -55,12 +55,12 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
     autoInitBuilder: 0
-    sceneUnitsToMillimeter: 0
+    sceneUnitsToMillimeter: 1000
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
     posePrediction: 0
-    modelCorrectionMode: 0
+    modelCorrectionMode: 2
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
   webcam:
